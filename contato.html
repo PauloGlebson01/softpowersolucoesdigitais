@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contato | SoftPower Soluções Digitais</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" href="asstes/LOGO-SOFT.png" />
+</head>
+
+<body>
+
+   <!-- ===== HEADER ===== -->
+<header class="header" id="header">
+    <div class="container">
+        <a href="index.html" class="logo">
+            <span class="logo-icon">
+                <img src="asstes/LOGO-SOFT.png" alt="SoftPower Logo" />
+            </span>
+            <div class="logo-text-group">
+                <span class="logo-name">Soft<span>Power</span></span>
+                <span class="logo-subtitle">Soluções Digitais</span>
+            </div>
+        </a>
+
+        <ul class="nav-links" id="navLinks">
+            <li><a href="index.html">Início</a></li>
+            <li><a href="softclick.html">SoftClick</a></li>
+            <li><a href="dedetize.html">Dedetize+</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="contato.html" class="nav-cta" style="background: #2199EF;">Contato</a></li>
+        </ul>
+
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
+            <span></span><span></span><span></span>
+        </button>
+    </div>
+</header>
+
+    <!-- ===== CONTATO HERO ===== -->
+    <section class="page-hero" style="padding-top: 140px;">
+        <div class="container">
+            <h1>Entre em Contato</h1>
+            <p>Estamos aqui para ajudar. Escolha o produto e fale conosco.</p>
+        </div>
+    </section>
+
+    <!-- ===== CONTATO ===== -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h2>Fale com a <span>SoftPower</span></h2>
+                    <p>Tem dúvidas sobre o SoftClick ou Dedetize+? Quer contratar um plano ou precisa de suporte? Estamos prontos para atender você.</p>
+
+                    <!-- E-mail -->
+                    <div class="contact-item">
+                        <div class="icon email"><i class="fas fa-envelope"></i></div>
+                        <div>
+                            <h4>E-mail</h4>
+                            <p>softpowersolucoesdigitais@gmail.com</p>
+                            <p style="font-size:0.85rem; color: var(--gray-400);">Respondemos em até 24h</p>
+                        </div>
+                    </div>
+
+                    <!-- WhatsApp -->
+                    <div class="contact-item">
+                        <div class="icon whatsapp"><i class="fab fa-whatsapp"></i></div>
+                        <div>
+                            <h4>WhatsApp</h4>
+                            <p>(83) 98101-1900</p>
+                            <p style="font-size:0.85rem; color: var(--gray-400);">Atendimento rápido e prático</p>
+                        </div>
+                    </div>
+
+                    <!-- Horário -->
+                    <div class="contact-item">
+                        <div class="icon clock"><i class="fas fa-clock"></i></div>
+                        <div>
+                            <h4>Horário de Atendimento</h4>
+                            <p>Segunda a Sexta: 8h às 18h</p>
+                            <p style="font-size:0.85rem; color: var(--gray-400);">Sábado: 8h às 12h</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <h3>Envie uma mensagem</h3>
+                    <form id="contactForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label>Seu nome <span class="required">*</span></label>
+                                <input type="text" id="nome" placeholder="Nome completo" required />
+                            </div>
+                            <div class="form-group">
+                                <label>E-mail <span class="required">*</span></label>
+                                <input type="email" id="email" placeholder="seu@email.com" required />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>Telefone</label>
+                            <input type="tel" id="telefone" placeholder="(83) 99999-9999" />
+                        </div>
+                        <div class="form-group">
+                            <label>Produto de interesse <span class="required">*</span></label>
+                            <select id="produto" required>
+                                <option value="">Selecione...</option>
+                                <option value="SoftClick">SoftClick - Barbearias / Beauty / Nutri</option>
+                                <option value="Dedetize+">Dedetize+ - Controle de Pragas</option>
+                                <option value="Ambos">Ambos os produtos</option>
+                                <option value="Outro">Outro</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Assunto <span class="required">*</span></label>
+                            <select id="assunto" required>
+                                <option value="">Selecione...</option>
+                                <option value="Dúvida sobre o sistema">Dúvida sobre o sistema</option>
+                                <option value="Contratação / Planos">Contratação / Planos</option>
+                                <option value="Suporte técnico">Suporte técnico</option>
+                                <option value="Parcerias">Parcerias</option>
+                                <option value="Outro">Outro</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Mensagem <span class="required">*</span></label>
+                            <textarea id="mensagem" placeholder="Descreva sua mensagem..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn-submit">
+                            <i class="fab fa-whatsapp"></i> Enviar via WhatsApp
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <!-- ===== FOOTER ===== -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <a href="index.html" class="logo">
+                    <span class="logo-icon" style="width:32px;height:32px;">
+                        <!-- ===== LOGO BRANCA ===== -->
+                        <img src="asstes/LOGO-SOFT.png" alt="SoftPower Logo" />
+                    </span>
+                    <div class="logo-text-group">
+                        <span class="logo-name" style="font-size:1.2rem;">Soft<span>Power</span></span>
+                        <span class="logo-subtitle" style="font-size:0.5rem;">Soluções Digitais</span>
+                    </div>
+                </a>
+                <p>Soluções digitais que transformam negócios.</p>
+                <p style="margin-top: 8px; font-size: 0.8rem; color: var(--gray-400);">
+                    SoftClick &amp; Dedetize+ são produtos da SoftPower
+                </p>
+            </div>
+            <div>
+                <h4>Produtos</h4>
+                <ul>
+                    <li><a href="softclick.html">SoftClick</a></li>
+                    <li><a href="dedetize.html">Dedetize+</a></li>
+                    <li><a href="educacao.html">Materiais Educativos</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>Empresa</h4>
+                <ul>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                    <li><a href="ajuda.html">Central de Ajuda</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>Legal</h4>
+                <ul>
+                    <li><a href="termos.html">Termos de Uso</a></li>
+                    <li><a href="privacidade.htm">Privacidade</a></li>
+                    <li><a href="lgpd.html">LGPD</a></li>
+                </ul>
+            </div>
+        </div>
+         <div class="footer-bottom">
+            <span>&copy; 2026 SoftPower Soluções Digitais — Todos os direitos reservados.</span>
+            <div class="footer-socials">
+                <a href="https://www.instagram.com/softpower.solucoes" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=61593099233240&sk=directory_links" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://wa.me/5583981011900?text=Olá%20SoftPower!%20Gostaria%20de%20mais%20informações%20sobre%20os%20produtos." aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                <a href="https://www.tiktok.com/@softpower.digitais" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

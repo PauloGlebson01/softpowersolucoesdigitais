@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dedetize+ | Gestão para Controle de Pragas - SoftPower</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" href="asstes/LOGO-SOFT.png" />
+</head>
+
+<body>
+
+    <!-- ===== HEADER ===== -->
+<header class="header" id="header">
+    <div class="container">
+        <a href="index.html" class="logo">
+            <span class="logo-icon">
+                <img src="asstes/dedetize+_icon.png" alt="SoftPower Logo" />
+            </span>
+            <div class="logo-text-group">
+                <span class="logo-name">Dedetize<span>+</span></span>
+                <span class="logo-subtitle">Gestão de Serviços</span>
+            </div>
+        </a>
+
+        <ul class="nav-links" id="navLinks">
+            <li><a href="index.html">Início</a></li>
+            <li><a href="#funcionalidades">Funcionalidades</a></li>
+            <li><a href="#modulos">Módulos</a></li>
+            <li><a href="#beneficios">Benefícios</a></li>
+            <li><a href="#planos">Planos</a></li>
+            <li><a href="#depoimentos">Depoimentos</a></li>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="contato.html" class="nav-cta dedetize">Teste Grátis</a></li>
+        </ul>
+
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
+            <span></span><span></span><span></span>
+        </button>
+    </div>
+</header>
+
+    <!-- ===== HERO DEDETIZE+ ===== -->
+    <section class="hero hero-dedetize" id="hero">
+        <div class="container">
+            <div class="hero-content">
+                <span class="badge-produto-hero dedetize">Dedetize+</span>
+                <h1>
+                    Gestão completa para<br />
+                    <span class="highlight"
+                        style="background: linear-gradient(135deg, #1d7a6b, #1d7a6b); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">controle
+                        de pragas</span>
+                </h1>
+                <p>
+                    Sistema inteligente para gerenciar ordens de serviço, clientes,
+                    equipe, estoque e relatórios técnicos. Tudo em um só lugar.
+                </p>
+                <div class="hero-buttons">
+                    <a href="contato.html" class="btn btn-accent btn-lg">
+                        <i class="fas fa-rocket"></i> Teste Grátis
+                    </a>
+                    <a href="#funcionalidades" class="btn btn-outline btn-lg">
+                        <i class="fas fa-play-circle"></i> Ver Recursos
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number" data-count="500">0</span>
+                        <span class="stat-label">Empresas atendidas</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-count="1500">0</span>
+                        <span class="stat-label">Usuários ativos</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-count="98">0</span>
+                        <span class="stat-label">% de satisfação</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-image">
+                <div class="image-stack">
+                    <img src="asstes/dedetize+.png" alt="Dedetize+ Dashboard" class="main-image"
+                        onerror="this.src='https://placehold.co/500x400/0b2a3b/e67e22?text=Dedetize%2B'">
+                    <div class="badge-top" style="background: linear-gradient(135deg, #2a9d8f, #2a9d8f);">
+                        <i class="fas fa-star"></i> +500 empresas
+                    </div>
+                    <div class="badge-bottom">
+                        <i class="fas fa-bug"></i> Controle de pragas
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FUNCIONALIDADES ===== -->
+    <section class="section" id="funcionalidades">
+        <div class="container">
+            <div class="section-header fade-up">
+                <span class="label">Funcionalidades</span>
+                <h2>Tudo o que você precisa <span>em um só lugar</span></h2>
+                <p>Gerencie todas as áreas da sua empresa de controle de pragas com eficiência e profissionalismo.</p>
+            </div>
+
+            <div class="features-grid dedetize-features">
+                <div class="feature-card fade-up delay-1">
+                    <div class="icon" style="background: rgba(230, 126, 34, 0.1); color: #1d7a6b;"><i
+                            class="fas fa-file-signature"></i></div>
+                    <h3>Ordens de Serviço</h3>
+                    <p>Crie, edite e acompanhe OS com status, assinatura digital e histórico completo de cada serviço.
+                    </p>
+                </div>
+                <div class="feature-card fade-up delay-2">
+                    <div class="icon" style="background: rgba(230, 126, 34, 0.1); color: #1d7a6b;"><i
+                            class="fas fa-calendar-alt"></i></div>
+                    <h3>Agenda Inteligente</h3>
+                    <p>Visualize e gerencie todos os agendamentos. Sincronização automática com serviços e OS.</p>
+                </div>
+                <div class="feature-card fade-up delay-3">
+                    <div class="icon" style="background: rgba(230, 126, 34, 0.1); color: #1d7a6b;"><i
+                            class="fas fa-map-marked-alt"></i></div>
+                    <h3>Mapa de Iscas</h3>
+                    <p>Controle pontos de isca e túneis com status, localização e histórico de manutenção.</p>
+                </div>
+                <div class="feature-card fade-up delay-1">
+                    <div class="icon" style="background: rgba(230, 126, 34, 0.1); color: #1d7a6b;"><i
+                            class="fas fa-boxes"></i></div>
+                    <h3>Controle de Estoque</h3>
+                    <p>Gerencie produtos, inseticidas e equipamentos com entrada, saída e alertas de estoque baixo.</p>
+                </div>
+                <div class="feature-card fade-up delay-2">
+                    <div class="icon" style="background: rgba(230, 126, 34, 0.1); color: #1d7a6b;"><i
+                            class="fas fa-file-alt"></i></div>
+                    <h3>Relatórios Técnicos</h3>
+                    <p>Gere relatórios personalizados com imagens, assinaturas e modelos pré-definidos.</p>
+                </div>
+                <div class="feature-card fade-up delay-3">
+                    <div class="icon" style="background: rgba(230, 126, 34, 0.1); color: #1d7a6b;"><i
+                            class="fas fa-chart-line"></i></div>
+                    <h3>Financeiro</h3>
+                    <p>Visualize faturamento, ticket médio e relatórios financeiros completos com filtros avançados.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== MÓDULOS COMPLETOS ===== -->
+    <section class="section section-alt" id="modulos">
+        <div class="container">
+            <div class="section-header fade-up">
+                <span class="label">Módulos</span>
+                <h2>Conheça os <span>módulos</span> do sistema</h2>
+                <p>Ferramentas especializadas para cada área da sua operação de controle de pragas.</p>
+            </div>
+
+            <div class="modulos-grid dedetize-modulos">
+                <div class="modulo-card fade-up delay-1">
+                    <i class="fas fa-tachometer-alt"></i>
+                    <h4>Dashboard</h4>
+                    <p>Visão geral com KPIs e gráficos</p>
+                </div>
+                <div class="modulo-card fade-up delay-2">
+                    <i class="fas fa-file-signature"></i>
+                    <h4>Ordens de Serviço</h4>
+                    <p>Gestão completa de OS</p>
+                </div>
+                <div class="modulo-card fade-up delay-3">
+                    <i class="fas fa-calendar-alt"></i>
+                    <h4>Agenda</h4>
+                    <p>Agendamentos e visitas</p>
+                </div>
+                <div class="modulo-card fade-up delay-1">
+                    <i class="fas fa-map-marked-alt"></i>
+                    <h4>Mapa de Iscas</h4>
+                    <p>Controle de pontos</p>
+                </div>
+                <div class="modulo-card fade-up delay-2">
+                    <i class="fas fa-boxes"></i>
+                    <h4>Estoque</h4>
+                    <p>Produtos e insumos</p>
+                </div>
+                <div class="modulo-card fade-up delay-3">
+                    <i class="fas fa-users"></i>
+                    <h4>Clientes</h4>
+                    <p>Cadastro e histórico</p>
+                </div>
+                <div class="modulo-card fade-up delay-1">
+                    <i class="fas fa-hard-hat"></i>
+                    <h4>Equipe</h4>
+                    <p>Técnicos e colaboradores</p>
+                </div>
+                <div class="modulo-card fade-up delay-2">
+                    <i class="fas fa-file-alt"></i>
+                    <h4>Relatórios Técnicos</h4>
+                    <p>Laudos e vistorias</p>
+                </div>
+                <div class="modulo-card fade-up delay-3">
+                    <i class="fas fa-chart-line"></i>
+                    <h4>Financeiro</h4>
+                    <p>Faturamento e fluxo</p>
+                </div>
+                <div class="modulo-card fade-up delay-3">
+                    <i class="fas fa-file-contract"></i>
+                    <h4>Propostas Comerciais</h4>
+                    <p>Criação e envio de propostas</p>
+                </div>
+                <div class="modulo-card fade-up delay-1">
+                    <i class="fas fa-cog"></i>
+                    <h4>Configurações</h4>
+                    <p>Personalização do sistema</p>
+                </div>
+                <div class="modulo-card fade-up delay-2">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h4>App Mobile</h4>
+                    <p>Acesso pelo celular</p>
+                </div>
+                <div class="modulo-card fade-up delay-3">
+                    <i class="fas fa-shield-alt"></i>
+                    <h4>Segurança</h4>
+                    <p>Controle de acesso</p>
+                </div>
+                <div class="modulo-card fade-up delay-1">
+                    <i class="fas fa-chart-pie"></i>
+                    <h4>Exportações</h4>
+                    <p>PDF, Excel e CSV</p>
+                </div>
+                <div class="modulo-card fade-up delay-2">
+                    <i class="fas fa-history"></i>
+                    <h4>Histórico</h4>
+                    <p>Auditoria de ações</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== BENEFÍCIOS ===== -->
+    <section class="section" id="beneficios">
+        <div class="container">
+            <div class="section-header fade-up">
+                <span class="label">Benefícios</span>
+                <h2>Por que escolher o <span style="color: #1d7a6b;">Dedetize+</span></h2>
+                <p>Solução completa para empresas de dedetização que buscam organização, eficiência e crescimento.</p>
+            </div>
+
+            <div class="beneficios-grid dedetize-beneficios">
+                <div class="beneficio-card fade-up delay-1">
+                    <div class="icon" style="color: #1d7a6b;"><i class="fas fa-cloud-upload-alt"></i></div>
+                    <h3>Sincronização em Tempo Real</h3>
+                    <p>Dados sincronizados automaticamente entre dispositivos. Trabalhe de qualquer lugar.</p>
+                </div>
+                <div class="beneficio-card fade-up delay-2">
+                    <div class="icon" style="color: #1d7a6b;"><i class="fas fa-shield-alt"></i></div>
+                    <h3>Segurança e Controle</h3>
+                    <p>Autenticação segura, multi-empresa e permissões granulares para sua equipe.</p>
+                </div>
+                <div class="beneficio-card fade-up delay-3">
+                    <div class="icon" style="color: #1d7a6b;"><i class="fas fa-mobile-alt"></i></div>
+                    <h3>100% Responsivo</h3>
+                    <p>Acesse de qualquer dispositivo: desktop, tablet ou smartphone. Interface adaptável.</p>
+                </div>
+                <div class="beneficio-card fade-up delay-1">
+                    <div class="icon" style="color: #1d7a6b;"><i class="fas fa-file-pdf"></i></div>
+                    <h3>Relatórios Profissionais</h3>
+                    <p>Exporte relatórios em PDF e Excel com a identidade visual da sua empresa.</p>
+                </div>
+                <div class="beneficio-card fade-up delay-2">
+                    <div class="icon" style="color: #1d7a6b;"><i class="fas fa-headset"></i></div>
+                    <h3>Suporte Dedicado</h3>
+                    <p>Suporte prioritário via WhatsApp e chat para tirar todas as dúvidas.</p>
+                </div>
+                <div class="beneficio-card fade-up delay-3">
+                    <div class="icon" style="color: #1d7a6b;"><i class="fas fa-arrows-spin"></i></div>
+                    <h3>Atualizações Constantes</h3>
+                    <p>Novas funcionalidades e melhorias entregues regularmente sem custo.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== PLANOS ===== -->
+    <section class="section section-alt" id="planos">
+        <div class="container">
+            <div class="section-header fade-up">
+                <span class="label">Planos</span>
+                <h2>Escolha o plano <span>ideal</span> para você</h2>
+                <p>Planos flexíveis que crescem junto com seu negócio.</p>
+            </div>
+
+            <div class="pricing-grid">
+                <div class="pricing-card fade-up delay-1">
+                    <div class="plan-name">Individual</div>
+                    <div class="price">R$ 49,90 <span>/mês</span></div>
+                    <p class="plan-desc">Perfeito para pequenas operações.</p>
+                    <ul class="features-list">
+                        <li><i class="fas fa-check"></i> Até 3 usuários</li>
+                        <li><i class="fas fa-check"></i> OS e Clientes</li>
+                        <li><i class="fas fa-check"></i> Agenda inteligente</li>
+                        <li><i class="fas fa-check"></i> Mapas de Iscas</li>
+                        <li><i class="fas fa-check"></i> Estoque completo</li>
+                        <li><i class="fas fa-check"></i> Financeiro</li>
+                        <li><i class="fas fa-check"></i> Assinatura digital</li>
+                        <li><i class="fas fa-check"></i> Suporte técnico</li>
+                    </ul>
+                    <a href="contato.html" class="btn btn-secondary">Começar</a>
+                </div>
+
+                <div class="pricing-card fade-up delay-1">
+                    <div class="plan-name">Básico</div>
+                    <div class="price">R$ 69,90 <span>/mês</span></div>
+                    <p class="plan-desc">Perfeito para médias operações.</p>
+                    <ul class="features-list">
+                        <li><i class="fas fa-check"></i> Até 3 usuários</li>
+                        <li><i class="fas fa-check"></i> OS e Clientes</li>
+                        <li><i class="fas fa-check"></i> Agenda inteligente</li>
+                        <li><i class="fas fa-check"></i> Mapas de Iscas</li>
+                        <li><i class="fas fa-check"></i> Estoque completo</li>
+                        <li><i class="fas fa-check"></i> Financeiro</li>
+                        <li><i class="fas fa-check"></i> Assinatura digital</li>
+                        <li><i class="fas fa-check"></i> Suporte técnico</li>
+                    </ul>
+                    <a href="contato.html" class="btn btn-secondary">Começar</a>
+                </div>
+
+                <div class="pricing-card popular fade-up delay-2">
+                    <span class="badge-popular">Mais Popular</span>
+                    <div class="plan-name">Profissional</div>
+                    <div class="price">R$ 149,90 <span>/mês</span></div>
+                    <p class="plan-desc">Ideal para empresas em crescimento.</p>
+                    <ul class="features-list">
+                        <li><i class="fas fa-check"></i> Até 10 usuários</li>
+                        <li><i class="fas fa-check"></i> OS e Clientes</li>
+                        <li><i class="fas fa-check"></i> Agenda inteligente</li>
+                        <li><i class="fas fa-check"></i> Mapas de Iscas</li>
+                        <li><i class="fas fa-check"></i> Estoque completo</li>
+                        <li><i class="fas fa-check"></i> Financeiro</li>
+                        <li><i class="fas fa-check"></i> Assinatura digital</li>
+                        <li><i class="fas fa-check"></i> Suporte técnico</li>
+                    </ul>
+                    <a href="contato.html" class="btn btn-accent">Começar</a>
+                </div>
+
+                <div class="pricing-card fade-up delay-3">
+                    <div class="plan-name">Premium</div>
+                    <div class="price">R$ 199,90 <span>/mês</span></div>
+                    <p class="plan-desc">Para grandes operações e franquias.</p>
+                    <ul class="features-list">
+                        <li><i class="fas fa-check"></i> Usuários ilimitados</li>
+                        <li><i class="fas fa-check"></i> OS e Clientes</li>
+                        <li><i class="fas fa-check"></i> Agenda inteligente</li>
+                        <li><i class="fas fa-check"></i> Mapas de Iscas</li>
+                        <li><i class="fas fa-check"></i> Estoque completo</li>
+                        <li><i class="fas fa-check"></i> Financeiro</li>
+                        <li><i class="fas fa-check"></i> Assinatura digital</li>
+                        <li><i class="fas fa-check"></i> Suporte técnico</li>
+                    </ul>
+                    <a href="contato.html" class="btn btn-secondary">Começar</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== DEPOIMENTOS ===== -->
+    <section class="section" id="depoimentos">
+        <div class="container">
+            <div class="section-header fade-up">
+                <span class="label">Depoimentos</span>
+                <h2>O que nossos <span>clientes</span> dizem</h2>
+                <p>Empresas de todo o Brasil confiam no Dedetize+.</p>
+            </div>
+
+            <div class="depoimentos-grid">
+                <div class="depoimento-card fade-up delay-1">
+                    <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                    <blockquote>"O Dedetize+ organizou completamente minha empresa. Ordens de serviço, estoque e
+                        relatórios técnicos em um só lugar. Recomendo!"</blockquote>
+                    <div class="author">
+                        <div class="avatar" style="background: linear-gradient(135deg, #1d7a6b, #1d7a6b);">G</div>
+                        <div class="info">
+                            <strong>Gleidson &amp; Simony</strong>
+                            <span>Click Saúde Ambiental, AL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="depoimento-card fade-up delay-2">
+                    <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                    <blockquote>"O mapa de iscas e o controle de estoque são ferramentas incríveis. Aumentei a
+                        produtividade da minha equipe em 40%."</blockquote>
+                    <div class="author">
+                        <div class="avatar" style="background: linear-gradient(135deg, #1d7a6b, #1d7a6b);">A</div>
+                        <div class="info">
+                            <strong>Ana Paula</strong>
+                            <span>Controle Total, RJ</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="depoimento-card fade-up delay-3">
+                    <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                    <blockquote>"Relatórios técnicos personalizados e assinatura digital trouxeram profissionalismo para
+                        minha empresa. Clientes aprovam!"</blockquote>
+                    <div class="author">
+                        <div class="avatar" style="background: linear-gradient(135deg, #1d7a6b, #1d7a6b);">R</div>
+                        <div class="info">
+                            <strong>Roberto Silva</strong>
+                            <span>Ambiental Clean, MG</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FAQ ===== -->
+    <section class="section section-alt" id="faq">
+        <div class="container">
+            <div class="section-header fade-up">
+                <span class="label">FAQ</span>
+                <h2>Perguntas <span>Frequentes</span></h2>
+                <p>Tire suas dúvidas sobre o Dedetize+.</p>
+            </div>
+
+            <div class="faq-grid dedetize-faq">
+                <div class="faq-item fade-up delay-1">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <span>Como funciona o teste grátis?</span>
+                        <i class="fas fa-chevron-down" style="color: #1d7a6b;"></i>
+                    </div>
+                    <div class="faq-answer">
+                        Você pode testar o Dedetize+ por 15 dias com acesso a todos os recursos. Não é necessário cartão
+                        de crédito e você pode cancelar a qualquer momento.
+                    </div>
+                </div>
+
+                <div class="faq-item fade-up delay-2">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <span>Posso cancelar o plano a qualquer momento?</span>
+                        <i class="fas fa-chevron-down" style="color: #1d7a6b;"></i>
+                    </div>
+                    <div class="faq-answer">
+                        Sim! Você pode cancelar seu plano quando quiser, sem multas ou taxas adicionais. O cancelamento
+                        é feito diretamente no painel de controle.
+                    </div>
+                </div>
+
+                <div class="faq-item fade-up delay-3">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <span>O sistema é seguro?</span>
+                        <i class="fas fa-chevron-down" style="color: #1d7a6b;"></i>
+                    </div>
+                    <div class="faq-answer">
+                        Sim! Utilizamos criptografia de ponta a ponta, autenticação segura e servidores protegidos. Seus
+                        dados estão sempre seguros conosco.
+                    </div>
+                </div>
+
+                <div class="faq-item fade-up delay-1">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <span>O Dedetize+ funciona offline?</span>
+                        <i class="fas fa-chevron-down" style="color: #1d7a6b;"></i>
+                    </div>
+                    <div class="faq-answer">
+                        Não. O Dedetize+ é uma plataforma online e requer conexão com a internet para acesso às informações e utilização de suas funcionalidades. Isso garante que todos os dados estejam sempre atualizados, seguros e sincronizados em tempo real entre os usuários autorizados.
+                    </div>
+                </div>
+
+                <div class="faq-item fade-up delay-2">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <span>Quantos usuários posso adicionar?</span>
+                        <i class="fas fa-chevron-down" style="color: #1d7a6b;"></i>
+                    </div>
+                    <div class="faq-answer">
+                        O número de usuários varia conforme o plano escolhido. O plano Básico inclui 3 usuários, o
+                        Profissional 10 usuários e o Premium usuários ilimitados.
+                    </div>
+                </div>
+
+                <div class="faq-item fade-up delay-3">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <span>O sistema gera relatórios personalizados?</span>
+                        <i class="fas fa-chevron-down" style="color: #1d7a6b;"></i>
+                    </div>
+                    <div class="faq-answer">
+                        Sim! Você pode gerar relatórios personalizados com a identidade visual da sua empresa, incluindo
+                        logo, cores e informações de contato.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CTA ===== -->
+    <section class="cta-section cta-dedetize">
+        <div class="container">
+            <h2 class="fade-up">Pronto para <span style="color:#1d7a6b;">transformar</span> sua gestão?</h2>
+            <p class="fade-up delay-1">Comece hoje mesmo com 15 dias de teste grátis. Sem compromisso, sem cartão de
+                crédito.</p>
+            <div class="btn-group fade-up delay-2">
+                <a href="contato.html" class="btn btn-accent btn-lg">
+                    <i class="fas fa-gift"></i> Teste Grátis
+                </a>
+                <a href="contato.html" class="btn btn-white btn-lg">
+                    <i class="fas fa-phone"></i> Falar com Vendas
+                </a>
+            </div>
+        </div>
+    </section>
+
+  <!-- ===== FOOTER ===== -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <a href="index.html" class="logo">
+                    <span class="logo-icon" style="width:32px;height:32px;">
+                        <!-- ===== LOGO BRANCA ===== -->
+                        <img src="asstes/LOGO-SOFT.png" alt="SoftPower Logo" />
+                    </span>
+                    <div class="logo-text-group">
+                        <span class="logo-name" style="font-size:1.2rem;">Soft<span>Power</span></span>
+                        <span class="logo-subtitle" style="font-size:0.5rem;">Soluções Digitais</span>
+                    </div>
+                </a>
+                <p>Soluções digitais que transformam negócios.</p>
+                <p style="margin-top: 8px; font-size: 0.8rem; color: var(--gray-400);">
+                    SoftClick &amp; Dedetize+ são produtos da SoftPower
+                </p>
+            </div>
+            <div>
+                <h4>Produtos</h4>
+                <ul>
+                    <li><a href="softclick.html">SoftClick</a></li>
+                    <li><a href="dedetize.html">Dedetize+</a></li>
+                    <li><a href="educacao.html">Materiais Educativos</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>Empresa</h4>
+                <ul>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                    <li><a href="ajuda.html">Central de Ajuda</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>Legal</h4>
+                <ul>
+                    <li><a href="termos.html">Termos de Uso</a></li>
+                    <li><a href="privacidade.htm">Privacidade</a></li>
+                    <li><a href="lgpd.html">LGPD</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <span>&copy; 2026 SoftPower Soluções Digitais — Todos os direitos reservados.</span>
+            <div class="footer-socials">
+                <a href="https://www.instagram.com/dedetize.mais" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=61592686996189" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://wa.me/5583981011900?text=Olá%20SoftPower!%20Gostaria%20de%20mais%20informações%20sobre%20os%20produtos." aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                <a href="https://www.tiktok.com/@softpower.digitais" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
