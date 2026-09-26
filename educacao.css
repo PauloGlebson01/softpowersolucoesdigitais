@@ -528,3 +528,26 @@
 .image-modal-content-custom {
     animation: modalFadeIn 0.3s ease;
 }
+
+/* ===== BOTÃO ATENDEMESA NO HEADER EDUCAÇÃO ===== */
+.btn-voltar.atendemesa-btn {
+    background: rgba(124, 58, 237, 0.15);
+    color: #a855f7;
+    border-color: rgba(124, 58, 237, 0.3);
+}
+
+.btn-voltar.atendemesa-btn:hover {
+    background: rgba(124, 58, 237, 0.25);
+    color: #a855f7;
+    border-color: rgba(124, 58, 237, 0.5);
+}
+
+@media (max-width: 820px) {
+    .edu-header-custom {
+        padding: 10px 16px;
+    }
+    .edu-header-custom .btn-voltar {
+        font-size: 0.7rem;
+        padding: 6px 12px;
+    }
+}

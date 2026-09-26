@@ -1967,3 +1967,148 @@ img {
         padding: 12px;
     }
 }
+
+/* ============================================
+   ATENDEMESA — CORES COMPLEMENTARES
+   (Adição mínima para a landing page)
+   ============================================ */
+
+:root {
+    --atendemesa-primary: #7c3aed;
+    --atendemesa-primary-dark: #6d28d9;
+    --atendemesa-primary-light: #a855f7;
+}
+
+/* Botões AtendeMesa */
+.btn-atendemesa {
+    background: linear-gradient(135deg, #7c3aed, #6d28d9);
+    color: white;
+    box-shadow: 0 4px 15px rgba(124, 58, 237, 0.3);
+}
+.btn-atendemesa:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(124, 58, 237, 0.4);
+}
+
+/* Nav CTA AtendeMesa */
+.nav-cta.atendemesa {
+    background: #7c3aed;
+}
+.nav-cta.atendemesa:hover {
+    background: #a855f7;
+    transform: translateY(-2px);
+}
+
+/* Badges AtendeMesa */
+.badge-produto-hero.atendemesa {
+    background: rgba(124, 58, 237, 0.15);
+    color: #a855f7;
+    border: 1px solid rgba(124, 58, 237, 0.3);
+}
+
+.badge-produto.atendemesa {
+    background: rgba(124, 58, 237, 0.15);
+    color: #a855f7;
+}
+
+/* Icon wrapper AtendeMesa */
+.produto-card .card-header .icon-wrapper.atendemesa {
+    background: rgba(124, 58, 237, 0.1);
+    color: #7c3aed;
+}
+
+/* Card AtendeMesa */
+.atendemesa-card:hover {
+    border-color: rgba(124, 58, 237, 0.3);
+}
+
+/* Features AtendeMesa */
+.atendemesa-features .feature-card .icon {
+    background: rgba(124, 58, 237, 0.1);
+    color: #7c3aed;
+}
+.atendemesa-features .feature-card::before {
+    background: linear-gradient(90deg, #7c3aed, #a855f7);
+}
+
+/* Módulos AtendeMesa */
+.atendemesa-modulos .modulo-card i {
+    color: #7c3aed;
+}
+.atendemesa-modulos .modulo-card:hover {
+    border-color: rgba(124, 58, 237, 0.3);
+}
+
+/* Benefícios AtendeMesa */
+.atendemesa-beneficios .beneficio-card:hover {
+    border-color: rgba(124, 58, 237, 0.3);
+}
+.atendemesa-beneficios .beneficio-card .icon {
+    color: #7c3aed;
+}
+
+/* Avatar AtendeMesa */
+.depoimento-card .author .avatar.atendemesa-avatar {
+    background: linear-gradient(135deg, #7c3aed, #6d28d9);
+}
+
+/* FAQ AtendeMesa */
+.atendemesa-faq .faq-item .faq-question i {
+    color: #7c3aed;
+}
+
+/* CTA AtendeMesa */
+.cta-atendemesa {
+    background: linear-gradient(135deg, #7c3aed, #6d28d9);
+}
+.cta-atendemesa .btn-white {
+    color: #7c3aed;
+}
+
+/* Hero AtendeMesa */
+.hero-atendemesa {
+    background: linear-gradient(135deg, #0a0a0a 0%, #0f0f1a 100%);
+}
+.hero-atendemesa::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    right: -20%;
+    width: 600px;
+    height: 600px;
+    background: radial-gradient(circle, rgba(124, 58, 237, 0.1) 0%, transparent 70%);
+    border-radius: 50%;
+    pointer-events: none;
+}
+.hero-atendemesa .hero-content h1 .highlight {
+    background: linear-gradient(135deg, #a855f7, #7c3aed);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.hero-atendemesa .image-stack .badge-top {
+    background: linear-gradient(135deg, #a855f7, #7c3aed);
+}
+.hero-atendemesa .image-stack .badge-bottom i {
+    color: #7c3aed;
+}
+.hero-atendemesa .hero-stats .stat-number {
+    color: #a855f7;
+}
+
+/* Ajuste do grid para 3 produtos */
+.produtos-grid {
+    grid-template-columns: repeat(3, 1fr);
+}
+@media (max-width: 1024px) {
+    .produtos-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width: 820px) {
+    .produtos-grid {
+        grid-template-columns: 1fr;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+}

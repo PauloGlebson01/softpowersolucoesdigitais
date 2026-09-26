@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+        content="AtendeMesa - Sistema de chamada de garçom via QR Code para bares, lanchonetes e restaurantes. Painel administrativo em tempo real, histórico e relatórios." />
+    <meta name="keywords" content="atendemesa, restaurante, bar, garçom, qr code, atendimento, gestão, softpower" />
+    <meta name="author" content="SoftPower Soluções Digitais" />
+
+    <title>AtendeMesa | Atendimento para Bares, Lanchonetes e Restaurantes - SoftPower</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" href="asstes/LOGO-SOFT.png" />
+</head>
+
+<body>
+
+    <!-- ===== HEADER ===== -->
+    <header class="header" id="header">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <span class="logo-icon">
+                    <img src="asstes/Logo-Atendemesa.png" alt="AtendeMesa Logo" />
+                </span>
+                <div class="logo-text-group">
+                    <span class="logo-name">Atende<span>Mesa</span></span>
+                    <span class="logo-subtitle">Atendimento Inteligente</span>
+                </div>
+            </a>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="#funcionalidades">Funcionalidades</a></li>
+                <li><a href="#modulos">Módulos</a></li>
+                <li><a href="#planos">Planos</a></li>
+                <li><a href="#depoimentos">Depoimentos</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="contato.html" class="nav-cta atendemesa">
+                    <i class="fas fa-rocket"></i> Teste Grátis
+                </a></li>
+            </ul>
+
+            <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- ===== HERO ATENDEMESA ===== -->
+    <section class="hero hero-atendemesa" id="hero">
+        <div class="container">
+            <div class="hero-content">
+                <span class="badge-produto-hero atendemesa">AtendeMesa</span>
+                <h1>
+                    Atendimento ágil para<br />
+                    <span class="highlight">bares e restaurantes</span>
+                </h1>
+                <p>
+                    Seus clientes chamam o garçom pelo celular via QR Code.
+                    Você recebe as solicitações em tempo real no painel administrativo.
+                    Simples, rápido e eficiente.
+                </p>
+                <div class="hero-buttons">
+                    <a href="contato.html" class="btn btn-atendemesa btn-lg">
+                        <i class="fas fa-rocket"></i> Teste Grátis
+                    </a>
+                    <a href="#funcionalidades" class="btn btn-outline btn-lg">
+                        <i class="fas fa-play-circle"></i> Ver Recursos
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number" data-count="500">0</span>
+                        <span class="stat-label">Restaurantes atendidos</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-count="60">0</span>
+                        <span class="stat-label">% menos tempo de espera</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-count="98">0</span>
+                        <span class="stat-label">% de satisfação</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-image">
+                <div class="image-stack">
+                    <img src="asstes/image.png" alt="AtendeMesa Dashboard" class="main-image"
+                        onerror="this.src='https://placehold.co/500x400/0b2a3b/7c3aed?text=AtendeMesa'">
+                    <div class="badge-top">
+                        <i class="fas fa-star"></i> Tempo real
+                    </div>
+                    <div class="badge-bottom">
+                        <i class="fas fa-bell-concierge"></i> Bares, Lanchonetes & Restaurantes
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FUNCIONALIDADES ===== -->
+    <section class="section" id="funcionalidades">
+        <div class="container">
+            <div class="section-header fade-up">
+                <span class="label">Funcionalidades</span>
+                <h2>Tudo o que seu <span>restaurante precisa</span></h2>
+                <p>Gerencie o atendimento das mesas com eficiência e profissionalismo.</p>
+            </div>
+
+            <div class="features-grid atendemesa-features">
+                <div class="feature-card fade-up delay-1">
+                    <div class="icon"><i class="fas fa-qrcode"></i></div>
+                    <h3>Chamada via QR Code</h3>
+                    <p>Cliente escaneia o QR Code da mesa e escolhe: chamar garçom, solicitar conta ou deixar observação.</p>
+                </div>
+                <div class="feature-card fade-up delay-2">
+                    <div class="icon"><i class="fas fa-bolt"></i></div>
+                    <h3>Notificações em Tempo Real</h3>
+                    <p>Painel atualiza automaticamente. Notificação sonora avisa quando chega nova solicitação.</p>
+                </div>
+                <div class="feature-card fade-up delay-3">
+                    <div class="icon"><i class="fas fa-list-check"></i></div>
+                    <h3>Gestão de Solicitações</h3>
+                    <p>Marque como "em atendimento" ou "concluída". Acompanhe tudo em um só lugar.</p>
+                </div>
+                <div class="feature-card fade-up delay-1">
+                    <div class="icon"><i class="fas fa-clock-rotate-left"></i></div>
+                    <h3>Histórico Completo</h3>
+                    <p>Consulte todas as solicitações já concluídas com filtros por data, mesa e tipo.</p>
+                </div>
+                <div class="feature-card fade-up delay-2">
+                    <div class="icon"><i class="fas fa-chart-line"></i></div>
+                    <h3>Dashboard com Gráficos</h3>
+                    <p>Visualize distribuição por tipo, volume por hora e compare períodos.</p>
+                </div>
+                <div class="feature-card fade-up delay-3">
+                    <div class="icon"><i class="fas fa-file-export"></i></div>
+                    <h3>Relatórios Excel/PDF</h3>
+                    <p>Exporte relatórios completos em Excel e PDF com um clique.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== MÓDULOS ===== -->
+    <section class="section section-alt" id="modulos">
+        <div class="container">
+            <div class="section-header fade-up">
+                <span class="label">Módulos</span>
+                <h2>Conheça os <span>módulos</span> do sistema</h2>
+                <p>Ferramentas especializadas para cada área do seu atendimento.</p>
+            </div>
+
+            <div class="modulos-grid atendemesa-modulos">
+                <div class="modulo-card fade-up delay-1">
+                    <i class="fas fa-chart-line"></i>
+                    <h4>Dashboard</h4>
+                    <p>Visão geral com KPIs</p>
+                </div>
+                <div class="modulo-card fade-up delay-2">
+                    <i class="fas fa-bell"></i>
+                    <h4>Solicitações</h4>
+                    <p>Gestão em tempo real</p>
+                </div>
+                <div class="modulo-card fade-up delay-3">
+                    <i class="fas fa-clock-rotate-left"></i>
+                    <h4>Histórico</h4>
+                    <p>Consultas e filtros</p>
+                </div>
+                <div class="modulo-card fade-up delay-1">
+                    <i class="fas fa-chart-pie"></i>
+                    <h4>Gráficos</h4>
+                    <p>Análise visual</p>
+                </div>
+                <div class="modulo-card fade-up delay-2">
+                    <i class="fas fa-file-excel"></i>
+                    <h4>Exportação Excel</h4>
+                    <p>Dados em planilha</p>
+                </div>
+                <div class="modulo-card fade-up delay-3">
+                    <i class="fas fa-file-pdf"></i>
+                    <h4>Exportação PDF</h4>
+                    <p>Relatórios prontos</p>
+                </div>
+                <div class="modulo-card fade-up delay-1">
+                    <i class="fas fa-filter"></i>
+                    <h4>Filtros Avançados</h4>
+                    <p>Por data, mesa e tipo</p>
+                </div>
+                <div class="modulo-card fade-up delay-2">
+                    <i class="fas fa-chart-simple"></i>
+                    <h4>Comparativo</h4>
+                    <p>Períodos lado a lado</p>
+                </div>
+                <div class="modulo-card fade-up delay-3">
+                    <i class="fas fa-volume-high"></i>
+                    <h4>Notificação Sonora</h4>
+                    <p>Alerta de novas chamadas</p>
+                </div>
+                <div class="modulo-card fade-up delay-1">
+                    <i class="fas fa-users"></i>
+                    <h4>Multi-usuário</h4>
+                    <p>Vários garçons conectados</p>
+                </div>
+                <div class="modulo-card fade-up delay-2">
+                    <i class="fas fa-mobile-screen"></i>
+                    <h4>100% Responsivo</h4>
+                    <p>Acesse do celular</p>
+                </div>
+                <div class="modulo-card fade-up delay-3">
+                    <i class="fas fa-shield-alt"></i>
+                    <h4>Segurança</h4>
+                    <p>Autenticação segura</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== BENEFÍCIOS ===== -->
+    <section class="section" id="beneficios">
+        <div class="container">
+            <div class="section-header fade-up">
+                <span class="label">Benefícios</span>
+                <h2>Por que escolher o <span style="color: #7c3aed;">AtendeMesa</span></h2>
+                <p>Benefícios que fazem a diferença no seu dia a dia.</p>
+            </div>
+
+            <div class="beneficios-grid atendemesa-beneficios">
+                <div class="beneficio-card fade-up delay-1">
+                    <div class="icon"><i class="fas fa-bolt"></i></div>
+                    <h3>Atendimento Mais Rápido</h3>
+                    <p>Reduza em até 60% o tempo de resposta às solicitações dos clientes.</p>
+                </div>
+                <div class="beneficio-card fade-up delay-2">
+                    <div class="icon"><i class="fas fa-smile"></i></div>
+                    <h3>Clientes Satisfeitos</h3>
+                    <p>Atendimento ágil e organizado encanta clientes e aumenta a fidelização.</p>
+                </div>
+                <div class="beneficio-card fade-up delay-3">
+                    <div class="icon"><i class="fas fa-chart-line"></i></div>
+                    <h3>Mais Faturamento</h3>
+                    <p>Atendimento eficiente aumenta o giro de mesas e o ticket médio.</p>
+                </div>
+                <div class="beneficio-card fade-up delay-1">
+                    <div class="icon"><i class="fas fa-user-group"></i></div>
+                    <h3>Equipe Organizada</h3>
+                    <p>Todos os garçons veem as solicitações em tempo real. Sem gritos, sem confusão.</p>
+                </div>
+                <div class="beneficio-card fade-up delay-2">
+                    <div class="icon"><i class="fas fa-chart-pie"></i></div>
+                    <h3>Dados Estratégicos</h3>
+                    <p>Entenda os padrões de atendimento e tome decisões baseadas em dados.</p>
+                </div>
+                <div class="beneficio-card fade-up delay-3">
+                    <div class="icon"><i class="fas fa-gear"></i></div>
+                    <h3>Fácil de Usar</h3>
+                    <p>Interface intuitiva que qualquer garçom aprende em minutos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== PLANOS ===== -->
+    <section class="section section-alt" id="planos">
+        <div class="container">
+            <div class="section-header fade-up">
+                <span class="label">Planos</span>
+                <h2>Escolha o plano <span>ideal</span> para você</h2>
+                <p>Planos flexíveis que crescem junto com seu negócio.</p>
+            </div>
+
+            <div class="pricing-grid">
+                <div class="pricing-card fade-up delay-1">
+                    <div class="plan-name">Básico</div>
+                    <div class="price" style="color:#7c3aed;">R$ 49,90 <span>/mês</span></div>
+                    <p class="plan-desc">Perfeito para pequenos bares e cafés.</p>
+                    <ul class="features-list">
+                        <li><i class="fas fa-check"></i> Até 10 mesas</li>
+                        <li><i class="fas fa-check"></i> 1 usuário</li>
+                        <li><i class="fas fa-check"></i> QR Codes limitados</li>
+                        <li><i class="fas fa-check"></i> Painel em tempo real</li>
+                        <li><i class="fas fa-check"></i> Histórico completo</li>
+                        <li><i class="fas fa-check"></i> Notificação sonora</li>
+                        <li><i class="fas fa-check"></i> Suporte via WhatsApp</li>
+                    </ul>
+                    <a href="contato.html" class="btn btn-secondary">Começar</a>
+                </div>
+
+                <div class="pricing-card popular fade-up delay-2" style="border-color:#7c3aed;">
+                    <span class="badge-popular" style="background: linear-gradient(135deg, #7c3aed, #a855f7);">🔥 MAIS POPULAR</span>
+                    <div class="plan-name">Profissional</div>
+                    <div class="price" style="color:#7c3aed;">R$ 99,90 <span>/mês</span></div>
+                    <p class="plan-desc">Ideal para restaurantes em crescimento.</p>
+                    <ul class="features-list">
+                        <li><i class="fas fa-check"></i> Até 50 mesas</li>
+                        <li><i class="fas fa-check"></i> 5 usuários</li>
+                        <li><i class="fas fa-check"></i> QR Codes limitados</li>
+                        <li><i class="fas fa-check"></i> Dashboard com gráficos</li>
+                        <li><i class="fas fa-check"></i> Comparativo de períodos</li>
+                        <li><i class="fas fa-check"></i> Exportação Excel/PDF</li>
+                        <li><i class="fas fa-check"></i> Suporte prioritário</li>
+                    </ul>
+                    <a href="contato.html" class="btn btn-atendemesa">Começar</a>
+                </div>
+
+                <div class="pricing-card fade-up delay-3">
+                    <div class="plan-name">Premium</div>
+                    <div class="price" style="color:#7c3aed;">R$ 199,90 <span>/mês</span></div>
+                    <p class="plan-desc">Para grandes operações e franquias.</p>
+                    <ul class="features-list">
+                        <li><i class="fas fa-check"></i> Mesas ilimitadas</li>
+                        <li><i class="fas fa-check"></i> Usuários ilimitados</li>
+                        <li><i class="fas fa-check"></i> QR Codes ilimitados</li>
+                        <li><i class="fas fa-check"></i> Dashboard completo</li>
+                        <li><i class="fas fa-check"></i> Relatórios avançados</li>
+                        <li><i class="fas fa-check"></i> API de integração</li>
+                        <li><i class="fas fa-check"></i> Suporte 24/7</li>
+                    </ul>
+                    <a href="contato.html" class="btn btn-secondary">Começar</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== DEPOIMENTOS ===== -->
+    <section class="section" id="depoimentos">
+        <div class="container">
+            <div class="section-header fade-up">
+                <span class="label">Depoimentos</span>
+                <h2>O que nossos <span>clientes</span> dizem</h2>
+                <p>Restaurantes de todo o Brasil confiam no AtendeMesa.</p>
+            </div>
+
+            <div class="depoimentos-grid">
+                <div class="depoimento-card fade-up delay-1">
+                    <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                    <blockquote>"O AtendeMesa transformou o atendimento do meu restaurante. Reduzi o tempo de resposta em 60% e meus clientes notam a diferença."</blockquote>
+                    <div class="author">
+                        <div class="avatar atendemesa-avatar">M</div>
+                        <div class="info">
+                            <strong>Marcos Andrade</strong>
+                            <span>Restaurante Sabor &amp; Cia</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="depoimento-card fade-up delay-2">
+                    <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                    <blockquote>"Meus garçons não precisam mais ficar correndo de mesa em mesa. Eles veem tudo pelo celular e se organizam melhor."</blockquote>
+                    <div class="author">
+                        <div class="avatar atendemesa-avatar">J</div>
+                        <div class="info">
+                            <strong>Juliana Costa</strong>
+                            <span>Bar do Zé</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="depoimento-card fade-up delay-3">
+                    <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                    <blockquote>"Os relatórios em Excel me ajudam a entender os horários de pico e escalar melhor minha equipe. Ferramenta indispensável!"</blockquote>
+                    <div class="author">
+                        <div class="avatar atendemesa-avatar">P</div>
+                        <div class="info">
+                            <strong>Pedro Henrique</strong>
+                            <span>Churrascaria Gaúcha</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FAQ ===== -->
+    <section class="section section-alt" id="faq">
+        <div class="container">
+            <div class="section-header fade-up">
+                <span class="label">FAQ</span>
+                <h2>Perguntas <span>Frequentes</span></h2>
+                <p>Tire suas dúvidas sobre o AtendeMesa.</p>
+            </div>
+
+            <div class="faq-grid atendemesa-faq">
+                <div class="faq-item fade-up delay-1">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <span>Como funciona o QR Code nas mesas?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        É gerado um QR Code único para cada mesa e colocado em uma plaquinha de acrílico na mesa. O cliente escaneia com o celular e escolhe a opção desejada.
+                    </div>
+                </div>
+
+                <div class="faq-item fade-up delay-2">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <span>Preciso instalar algum aplicativo?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        Não! Tanto para o cliente quanto para o garçom, tudo funciona pelo navegador do celular ou computador. Basta acessar o link.
+                    </div>
+                </div>
+
+                <div class="faq-item fade-up delay-3">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <span>Quantos garçons podem usar ao mesmo tempo?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        Depende do plano. O Básico permite 1 usuário, o Profissional 5 usuários e o Premium usuários ilimitados. Todos veem as mesmas solicitações em tempo real.
+                    </div>
+                </div>
+
+                <div class="faq-item fade-up delay-1">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <span>Funciona sem internet?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        Não. O AtendeMesa é uma plataforma online e requer conexão com a internet para funcionar em tempo real.
+                    </div>
+                </div>
+
+                <div class="faq-item fade-up delay-2">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <span>Posso personalizar as opções de chamada?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        Não! Você já recebe todo o sistema configurado com todas as opções de uso para o cliente: chamar garçom, solicitar conta, observação, etc.
+                    </div>
+                </div>
+
+                <div class="faq-item fade-up delay-3">
+                    <div class="faq-question" onclick="toggleFaq(this)">
+                        <span>Como faço para cancelar?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        Você pode cancelar a qualquer momento, sem multas ou taxas adicionais. Basta entrar em contato com nosso suporte.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CTA ===== -->
+    <section class="cta-section cta-atendemesa">
+        <div class="container">
+            <h2 class="fade-up">Pronto para <span style="color:#f59e0b;">transformar</span> seu atendimento?</h2>
+            <p class="fade-up delay-1">Comece hoje mesmo com 15 dias de teste grátis. Sem compromisso, sem cartão de crédito.</p>
+            <div class="btn-group fade-up delay-2">
+                <a href="contato.html" class="btn btn-white btn-lg">
+                    <i class="fas fa-gift"></i> Teste Grátis
+                </a>
+                <a href="https://wa.me/5583981011900?text=Olá!%20Gostaria%20de%20conhecer%20o%20AtendeMesa." target="_blank" class="btn" style="background: linear-gradient(135deg, #25D366, #128C7E); color:white; box-shadow: 0 4px 15px rgba(37,211,102,0.3);">
+                    <i class="fab fa-whatsapp"></i> WhatsApp
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">
+                        <span class="logo-icon" style="width:32px;height:32px;">
+                            <img src="asstes/LOGO-SOFT.png" alt="SoftPower Logo" />
+                        </span>
+                        <div class="logo-text-group">
+                            <span class="logo-name" style="font-size:1.2rem;">Soft<span>Power</span></span>
+                            <span class="logo-subtitle" style="font-size:0.5rem;">Soluções Digitais</span>
+                        </div>
+                    </a>
+                    <p>Soluções digitais que transformam negócios.</p>
+                    <p style="margin-top: 8px; font-size: 0.8rem; color: var(--gray-400);">
+                        SoftClick, Dedetize+ &amp; AtendeMesa são produtos da SoftPower
+                    </p>
+                </div>
+                <div>
+                    <h4>Produtos</h4>
+                    <ul>
+                        <li><a href="softclick.html">SoftClick</a></li>
+                        <li><a href="dedetize.html">Dedetize+</a></li>
+                        <li><a href="atendemesa.html">AtendeMesa</a></li>
+                        <li><a href="educacao.html">Materiais Educativos</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Empresa</h4>
+                    <ul>
+                        <li><a href="sobre.html">Sobre</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                        <li><a href="ajuda.html">Central de Ajuda</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="termos.html">Termos de Uso</a></li>
+                        <li><a href="privacidade.htm">Privacidade</a></li>
+                        <li><a href="lgpd.html">LGPD</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span>&copy; 2026 SoftPower Soluções Digitais — Todos os direitos reservados.</span>
+                <div class="footer-socials">
+                    <a href="https://www.instagram.com/softpower.solucoes" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=61593099233240&sk=directory_links" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://wa.me/5583981011900?text=Olá%20SoftPower!%20Gostaria%20de%20mais%20informações%20sobre%20os%20produtos." aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    <a href="https://www.tiktok.com/@softpower.digitais" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
